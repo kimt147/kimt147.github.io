@@ -1,0 +1,167 @@
+body {
+    background-color: #3E5FD0;
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323';
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+#title {
+    width: 30%;
+    height: auto;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#finder {
+    width: 60%;
+    height: auto;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#hoodie {
+    width: 15%;
+    height: auto;
+    top: 38%;
+    left: 43%;
+    z-index: 2;
+}
+
+#shoes {
+    width: 12%;
+    height: auto;
+    top: 37%;
+    left: 62%;
+    z-index: 6;
+}
+
+#jeans {
+    width: 12%;
+    height: auto;
+    top: 57%;
+    left: 62%;
+    z-index: 3;
+}
+
+#music {
+    width: 15%;
+    height: auto;
+    top: 43%;
+    left: 23%;
+    z-index: 4;
+}
+
+#folder1 {
+    width: 10%;
+    height: auto;
+    top: 67%;
+    left: 11%;
+}
+
+#folder2 {
+    width: 10%;
+    height: auto;
+    top: 40%;
+    left: 0%;
+}
+
+#folder3 {
+    width: 10%;
+    height: auto;
+    top: 10%;
+    left: 73%;
+}
+
+#folder4 {
+    width: 10%;
+    height: auto;
+    top: 60%;
+    left: 85%;
+}
+
+#icon1 {
+    width: 8%;
+    height: auto;
+    top: 14%;
+    left: 14%;
+}
+
+#musicplayer {
+    width: 17%;
+    top: 73%;
+    z-index: 7;
+    position: absolute;
+    left: 22%;
+    transform: translateY(50%);
+}
+
+#text1 {
+    color: #2E3227;
+    font-size: 18px; 
+    text-align: center;
+    position: absolute;
+    top: 68%; 
+    left: 50.5%;
+    transform: translate(-50%, -50%); 
+    z-index: 9
+}
+
+#text2 {
+    color: #2E3227; 
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 68.3%;
+    transform: translate(-50%, -50%); 
+    z-index: 10;
+}
+
+#text3 {
+    color: #2E3227;
+    font-size: 18px; 
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 68.3%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+#text4 {
+    color: #2E3227; 
+    font-size: 25px; 
+    text-align: center;
+    position: absolute;
+    top: 27.5%;
+    left: 45.5%; 
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+#text5 {
+    color: #2E3227;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
