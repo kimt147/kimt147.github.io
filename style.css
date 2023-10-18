@@ -75,8 +75,8 @@ body {
 }
 
 .entries-buttons a:nth-child(4) {
-    margin-left: 45px; /* Adjust the left margin for Button 4 */
-    margin-top: 20px; /* Adjust the top margin for Button 4 */
+    margin-left: 45px;
+    margin-top: 20px;
 }
 
 .entries-buttons a:nth-child(4) img {
