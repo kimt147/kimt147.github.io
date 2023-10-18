@@ -83,3 +83,12 @@ body {
     width: 38px; 
     height: auto; 
 }
+
+.entries-buttons a:nth-child(5) {
+    margin-left: -450px;
+    margin-top: 140px;
+}
+.entries-buttons a:nth-child(5) img {
+    width: 65px; 
+    height: auto; 
+}
