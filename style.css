@@ -92,3 +92,34 @@ body {
     width: 64px; 
     height: auto; 
 }
+.entries-buttons a:nth-child(6) {
+    margin-left: 34px;
+    margin-top: 147px;
+}
+.entries-buttons a:nth-child(6) img {
+    width: 64px; 
+    height: auto; 
+}
+.entries-buttons a:nth-child(7) {
+    margin-left: 33px;
+    margin-top: 155px;
+}.entries-buttons a:nth-child(8) {
+    margin-left: 27px;
+    margin-top: 150px;
+}.entries-buttons a:nth-child(9) {
+    margin-left: -474px;
+    margin-top: 277px;
+}.entries-buttons a:nth-child(10) {
+    margin-left: 27px;
+    margin-top: 279px;
+}.entries-buttons a:nth-child(11) {
+    margin-left: 27px;
+    margin-top: 280px;
+}.entries-buttons a:nth-child(12) {
+    margin-left: 32px;
+    margin-top: 272px;
+}
+.entries-buttons a:nth-child(12) img {
+    width: 64px; 
+    height: auto; 
+}
