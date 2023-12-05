@@ -29,15 +29,9 @@ a:hover{
   border-radius: 2px;
 }
 
-.Group {
-    width: 100%;
-    height: auto;
-    position: absolute;
-}
-
 .Rectangle1 {
     width: 1728px;
-    height: 75px;
+    height: 100px;
     left: 0px;
     top: 0px;
     position: block;

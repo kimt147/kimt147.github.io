@@ -88,3 +88,12 @@ img {
     left: 67%;
     z-index: 5;
 }
+
+.makeawish:hover,
+.zero:hover,
+.eightt:hover,
+.one:hover,
+.eight:hover {
+    transform: translateY(-5px); 
+    transition: transform 0.2s ease;
+}

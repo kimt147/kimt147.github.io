@@ -131,6 +131,7 @@ img {
 }
 
 #musicplayer {
+    display: none;
     width: 17%;
     top: 75%;
     z-index: 7;
