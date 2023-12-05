@@ -42,6 +42,51 @@ body {
     top: 140px; /* Adjust the top distance */
     left: 60px; /* Adjust the right distance */
 }
+
+.info {
+    width: 100px; /* Adjust the initial size of the icon */
+    height: auto;
+    position: absolute;
+    top: 400px; /* Adjust the initial top position */
+    left: 1100px; /* Adjust the initial left position */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for enlargement */
+    z-index: 4;
+}
+
+.info.enlarged {
+    transform: scale(8); /* Adjust the scale factor for enlargement */
+}
+
+.mac,
+.mail,
+.pc {
+    width: 100px; /* Adjust the initial size of the image */
+    height: auto;
+    position: absolute;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for enlargement */
+}
+
+.mac.enlarged,
+.mail.enlarged,
+.pc.enlarged {
+    transform: scale(5); /* Adjust the scale factor for enlargement */
+}
+
+.mac {
+    top: 600px; /* Adjust the initial top position for image1 */
+    left: 1400px; /* Adjust the initial left position for image1 */
+}
+
+.mail {
+    top: 300px; /* Adjust the initial top position for image2 */
+    left: 1400px; /* Adjust the initial left position for image2 */
+}
+
+.pc {
+    top: 600px; /* Adjust the initial top position for image3 */
+    left: 900px; /* Adjust the initial left position for image3 */
+}
+
 .entries-buttons {
     display: flex;
     flex-direction: row; /* Display buttons in a row */
