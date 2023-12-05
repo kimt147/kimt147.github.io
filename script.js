@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (progress === 100) {
         clearInterval(interval); // Stop the interval
         // Redirect to your homepage
-        window.location.href = "https://kimt147.github.io/";
+        window.location.href = "https://kimt147.github.io/homepage/index.html";
       }
     }, 30); // Adjust the interval duration as needed
   });
