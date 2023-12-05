@@ -4,6 +4,57 @@ body {
     padding: 0;
 
 }
+
+.loading-overlay {
+    display: flex;
+    flex-direction: column; /* Set to column layout */
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+  }
+  
+  .loading-bar {
+    width: 1%; /* Start with 1% width */
+    height: 10px;
+    background-color: #515151; /* Blue color for the loading bar */
+    transition: width 3s ease; /* Adjust the duration of the animation to 5 seconds */
+  }
+  
+  .loading-text {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #515151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-text span {
+    display: inline-block;
+    margin-right: 2px; /* Adjust the spacing between letters */
+    animation: wave 1s infinite alternate; /* Apply the waving animation */
+  }
+  
+  @keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); } /* Adjust the height of the wave */
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
 .menu{
     display: block;
     width: 100%;

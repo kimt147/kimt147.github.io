@@ -3,6 +3,32 @@ body {
   background-size: cover;
 }
 
+header{
+	z-index: 100;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.5vh;
+  top: 0vh;
+  position: relative;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a{
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: alias;
+  background-color: #b442fd;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
